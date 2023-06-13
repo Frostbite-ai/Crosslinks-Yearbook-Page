@@ -18,7 +18,7 @@ function App() {
         {/* show this when on small display  */}
         <div className="absolute inset-0 z-0 flex items-center justify-center sm:hidden">
           <img
-            className="h-auto w-full translate-x-36 scale-150 transform"
+            className="-mt-3 h-auto w-full translate-x-36 scale-150 transform"
             src={MobileBg}
             alt="MobileCover"
           />
