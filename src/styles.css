@@ -1,0 +1,25 @@
+.button {
+  @apply absolute flex h-14 w-40 items-center justify-center rounded-full border border-neutral-950  sm:w-44;
+  background: radial-gradient(
+    167.59% 1691% at -33.64% 0%,
+    #0049d6 0%,
+    rgba(0, 87, 255, 0) 100%
+  );
+}
+
+.textStyle {
+  position: absolute;
+  width: 1172px;
+  height: 567px;
+  left: calc(50% - 1172px / 2 + 89px);
+  top: calc(50% - 567px / 2 - 309.5px);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 823.169px;
+  line-height: 1235px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.4;
+}
