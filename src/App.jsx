@@ -6,6 +6,7 @@ import BothLetters from "./components/BothLetters";
 import logoWhite from "./components/logowhite.png";
 // import MobileBg from "./components/MobileBg";
 import MobileBg from "./components/MobileBg.png";
+import pdfFile from ".././Yearbook_Horizons_2023.pdf";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         {/* show this when on small display  */}
         <div className="absolute inset-0 z-0 flex items-center justify-center sm:hidden">
           <img
-            className="-mt-3 h-auto w-full translate-x-36 scale-150 transform"
+            className="-mt-5 h-auto w-full translate-x-36 scale-150 transform"
             src={MobileBg}
             alt="MobileCover"
           />
@@ -31,8 +32,8 @@ function App() {
         <SvgComponentMob className="absolute z-10 -mt-4 h-auto w-[90%] sm:-mt-10 sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%]" />
 
         <div
-          className="button mt-56  cursor-pointer font-montserrat font-semibold text-[#EDEDED] sm:mt-72"
-          onClick={() => (window.location.href = "https://example.com")}
+          className="button mt-56 cursor-pointer font-montserrat font-semibold text-[#EDEDED] sm:mt-72"
+          onClick={() => (window.location.href = pdfFile)}
         >
           DOWNLOAD
         </div>
