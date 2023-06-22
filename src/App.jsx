@@ -30,12 +30,13 @@ function App() {
         />
         <SvgComponentMob className="absolute z-10 -mt-4 h-auto w-[90%] sm:-mt-10 sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%]" />
 
-        <div
+        <a
+          href={pdfFile}
+          download
           className="button mt-56 cursor-pointer font-montserrat font-semibold text-[#EDEDED] sm:mt-72"
-          onClick={() => (window.location.href = pdfFile)}
         >
           DOWNLOAD
-        </div>
+        </a>
       </div>
     </div>
   );
