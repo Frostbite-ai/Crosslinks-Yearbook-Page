@@ -4,7 +4,6 @@ import "./styles.css";
 import SvgComponentMob from "./components/SvgComponentMobile";
 import BothLetters from "./components/BothLetters";
 import logoWhite from "./components/logowhite.png";
-// import MobileBg from "./components/MobileBg";
 import MobileBg from "./components/MobileBg.png";
 import pdfFile from ".././Yearbook_Horizons_2023.pdf";
 
