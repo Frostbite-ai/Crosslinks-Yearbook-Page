@@ -32,7 +32,7 @@ function App() {
         <a
           href="https://storage.googleapis.com/crosslinksnsut/Yearbook_Horizons_2023.pdf"
           download
-          className="button mt-56 cursor-pointer font-montserrat font-semibold text-[#EDEDED] sm:mt-72"
+          className="button mt-56 cursor-pointer font-montserrat font-semibold text-[#EDEDED] active:scale-90 sm:mt-72"
         >
           DOWNLOAD
         </a>
