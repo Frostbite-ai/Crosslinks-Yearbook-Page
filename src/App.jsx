@@ -5,7 +5,6 @@ import SvgComponentMob from "./components/SvgComponentMobile";
 import BothLetters from "./components/BothLetters";
 import logoWhite from "./components/logowhite.png";
 import MobileBg from "./components/MobileBg.png";
-import pdfFile from ".././Yearbook_Horizons_2023.pdf";
 
 function App() {
   return (
@@ -31,7 +30,7 @@ function App() {
         <SvgComponentMob className="absolute z-10 -mt-4 h-auto w-[90%] sm:-mt-10 sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%]" />
 
         <a
-          href={pdfFile}
+          href="https://storage.googleapis.com/crosslinksnsut/Yearbook_Horizons_2023.pdf"
           download
           className="button mt-56 cursor-pointer font-montserrat font-semibold text-[#EDEDED] sm:mt-72"
         >
