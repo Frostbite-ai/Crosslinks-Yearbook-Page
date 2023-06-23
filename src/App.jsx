@@ -25,7 +25,7 @@ function App() {
         <img
           src={logoWhite}
           alt="Logo"
-          className="absolute left-5 top-4 z-30 w-56 max-w-lg lg:w-72"
+          className="absolute left-5 top-4 z-30  w-72 max-w-lg"
         />
         <SvgComponentMob className="absolute z-10 -mt-4 h-auto w-[90%] sm:-mt-10 sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%]" />
 
